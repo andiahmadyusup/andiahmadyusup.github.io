@@ -53,7 +53,6 @@
   margin: 10px;
 }
 #content {
-  width: 95%;
   text-align: justify;
 }
 @media screen and (min-width: 968px) {
@@ -394,9 +393,10 @@ input {
 }
 
 .about__data {
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  width: 95%;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
 }
 
 .about__container {
@@ -729,6 +729,7 @@ input {
   .about__data {
     text-align: initial;
     margin-left: 50%;
+    width: 100%;
   }
   .about__title {
     margin-bottom: var(--mb-1-5);
