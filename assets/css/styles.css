@@ -45,9 +45,10 @@
   padding-bottom: 0px;
 }
 #wm {
-  text-align: left;
+  text-align: justify;
   margin-bottom: 10px;
   color: gray;
+  width: 90%;
 }
 #aboutus {
   margin: 10px;
