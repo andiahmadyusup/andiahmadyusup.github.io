@@ -54,7 +54,6 @@
 }
 #content {
   text-align: justify;
-  margin: auto;
 }
 @media screen and (min-width: 968px) {
   :root {
