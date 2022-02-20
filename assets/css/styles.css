@@ -392,9 +392,8 @@ input {
 }
 
 .about__data {
-  width: 66%;
-  margin-left: 1%;
-  margin-right: 5%;
+  width: 98%;
+  margin: auto;
 }
 
 .about__container {
