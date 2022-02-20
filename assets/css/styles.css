@@ -397,6 +397,8 @@ input {
   align-items: center;
   justify-content: center;
   width: 70%;
+  margin-left: 2%;
+  margin-right: 5%;
 }
 
 .about__container {
