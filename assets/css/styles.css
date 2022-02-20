@@ -398,7 +398,6 @@ input {
 }
 
 .about__container {
-    width: 80%;
   row-gap: 2.5rem;
 }
 
@@ -727,7 +726,7 @@ input {
   }
   .about__data {
     text-align: initial;
-    margin-left: 48%;
+    margin-left: 60%;
     width: 100%;
   }
   .about__title {
