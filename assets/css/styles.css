@@ -394,9 +394,6 @@ input {
 }
 
 .about__data {
-  text-align: justify;
-  align-items: center;
-  justify-content: center;
   margin-left: 2.5%;
   margin-right: 2.5%;
   width: 95%;
