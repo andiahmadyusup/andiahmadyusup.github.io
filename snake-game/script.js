@@ -122,7 +122,7 @@ function update() {
 }
 // Reset posisi ular ke awal
 function reset(delay = 0) {
-    aler('DUARR! KAMU KALAH:(')
+    alert('DUARR! KAMU KALAH:(')
     alert(`SCORE MU: ${addScore}`)
     if (animasi != null) {
         clearInterval(animasi)
