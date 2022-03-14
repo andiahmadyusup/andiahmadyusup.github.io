@@ -70,7 +70,7 @@ function mode() {
 }
 // Rules game
 function update() {
-    // foods 
+ // Foods 
     if (snake.foods.length == 0) {
         const randomPos = {
             x: Math.floor(Math.random() * grid.col),
@@ -79,7 +79,7 @@ function update() {
         snake.foods.push(randomPos)
         console.log(randomPos)
     }
-    // Snake Move
+ // Snake Move
     const head = snake.body[0]
     var newHead = Object.assign({}, head)
     if (snake.direction == 'left') newHead.x -= 1
@@ -100,14 +100,14 @@ function update() {
         if (newHead.x > grid.col - 1) newHead.x = 0
         if (newHead.y > grid.row - 1) newHead.y = 0
     }
-    // Rules snake head gaboleh kena snake body
+// Rules snake head gaboleh kena snake body
     for (let i = 0; i < snake.body.length; i++) {
         const body = snake.body[i]
         if (body.x == newHead.x && body.y == newHead.y) {
             return reset(1000)
         }
     }
-    // food && add score
+// food && add score
     let snakeEat = true;
     for (let i = 0; i < snake.foods.length; i++) {
         const foods = snake.foods[i]
@@ -133,6 +133,7 @@ function reset(delay = 0) {
         { x: 11, y: 12 },
         { x: 10, y: 12 },
     ]
+    addScore = 0;
     score.innerHTML = 0;
     snake.direction = 'right'
 }
