@@ -1,6 +1,5 @@
 // SIMPLE SNAKE GAME
-// Author Andi Ahmad Yusup X Rpl 2
-
+// Author Andi Ahmad Yusup Tampanz
 
 const canvas = document.querySelector('.myCanvas')
 const ctx = canvas.getContext('2d');
